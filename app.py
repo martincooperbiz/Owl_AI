@@ -89,7 +89,7 @@ def main(start_data, end_data):
     logo.image(icon_path, width=200)
     style = ("text-align:center; padding: 0px; font-family: arial black;, "
              "font-size: 400%")
-    title = f"<h1 style='{style}'>ESG Smart Insight<sup></sup></h1><br><br>"
+    title = f"<h1 style='{style}'>ESG Smart Insight</h1><br><br>"
     st.write(title, unsafe_allow_html=True)
 
 
