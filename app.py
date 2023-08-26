@@ -83,7 +83,7 @@ def main(start_data, end_data):
 
     ###### SET UP PAGE ######
     icon_path = os.path.join(".", "public", "owl.png")
-    st.set_page_config(page_title="", page_icon=icon_path,
+    st.set_page_config(page_title="ESG Smart Insight", page_icon=icon_path,
                        layout='centered', initial_sidebar_state="collapsed")
     _, logo, _ = st.columns(3)
     logo.image(icon_path, width=200)
